@@ -1,0 +1,77 @@
+/*HTML*/
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*Tabela de Clima*/
+#clima{
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  background-color: rgb(240,248,255);
+}
+
+.cabeçalho {
+  background-color: rgb(168, 218, 213);
+}
+
+.cabeçalho, .item {
+  width: 20%;
+  border: solid 1px black;
+  padding: 5px;
+}
+
+.item:hover {
+  background-color: rgb(168, 218, 213);
+}
+
+/*Tabela de Notas*/
+
+#tabela_notas {
+  width: 50%; 
+  margin: 0 auto;
+  min-width: 300px;
+}
+
+#notas {
+  /* width: 50%;  */
+  min-width: 300px;
+  margin: 50px auto; 
+  border-collapse: collapse;
+}
+
+
+.aluno {
+  text-align: left;
+}
+
+.nota {
+  text-align: center;
+}
+
+td {
+  padding-left: 5px;
+}
+
+#borda_topo {
+  border-top: solid 1px black;
+}
+
+#borda_inferior {
+  border-bottom: solid 1px black;
+}
+
+#notas tbody tr:nth-child(odd) {
+    background-color: rgb(240,248,255);
+}
+
